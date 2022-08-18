@@ -1,0 +1,152 @@
+html {
+	height: 100%;
+}
+body {
+  margin: 0;
+  min-width: 960px;
+  height: 100%;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  color: #222222;
+  background-color: #ffffff;
+  /* background-image: url("img/hero-bg.jpg"); */
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.page-header {
+	margin: 0 0 40px;
+	padding: 32px 0 32px;
+}
+
+.page-header h1, p {
+	text-align: center;
+}
+
+.page-header p {
+  font-size: 18px;
+}
+
+h1 a {
+	color: black;
+}
+
+.mini-image {
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 150px;
+}
+
+a img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.page-header a {
+	text-decoration: none;
+
+}
+
+.page-header a:hover {
+	color: orange;
+	
+}
+
+.page-header a:active {
+	color: white;
+	
+}
+
+.page-header a:visited {
+	color: yellow;
+	
+}
+
+.page-header img {
+	margin-left: 370px;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+}
+
+.page-nav {
+	background: gray; 
+}
+
+.container {
+  max-width: 928px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.page-footer .container {
+  max-width: 1408px;
+  text-align: right;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	margin-top: 25px;
+	margin-left: 200px;
+	padding-left: 0;
+	/*background: green;*/
+	height: 60px;
+}
+
+nav li {
+	float: left;
+	margin-right: 35px;
+	margin-top: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: yellow;
+}
+
+.wrapper {
+	position: relative;
+	min-height: 100%;
+}
+
+.content {
+  padding-bottom: 50px;
+}
+
+.history {
+  text-align: left;
+  margin-left: 15px;
+}
+
+.news {
+  font-size: 18px;
+}
+
+.contacts {
+  font-size: 18px;
+}
+
+.page-footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 40px 0;
+  background-color: gray;
+  color: #ffffff;
+  height: 40px;
+  width: 100%;
+}
+
+.page-footer a {
+  margin-left: 56px;
+  color: inherit;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.footer-email {
+  padding-left: 30px;
+  background-image: url("img/icon-email-footer.svg");
+}
