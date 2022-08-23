@@ -123,6 +123,18 @@ nav a {
   font-size: 18px;
 }
 
+.news p, ol {
+  font-size: 16px;
+  text-align: left;
+  margin-left: 25px;
+}
+
+.notification {
+  font-size: 16px;
+  text-align: left; 
+  margin-left: 25px;
+}
+
 .contacts {
   font-size: 18px;
 }
